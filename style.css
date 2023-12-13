@@ -1,0 +1,263 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.container {
+
+    padding: 0 1%;
+}
+
+[class*='col-'] {
+    float: left;
+    padding: 15px;
+}
+
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+}
+
+/*header start here*/
+.row {
+    background-color: rgb(16, 125, 131);
+    padding: 25px;
+    text-align: center;
+
+}
+
+
+.logo-sok{
+    border: 2px solid white; 
+    border-radius: 50px; 
+    padding: 10px;
+    color: antiquewhite;
+    text-align: center;
+}
+.nav-menu ul li{
+    text-align: center;
+    display: block;
+
+}
+.nav-menu ul li a{
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    color: aliceblue;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight:bolder;
+    transform: transform 2s;
+    
+}
+.nav-menu ul li a:hover{
+    background-color: rgb(37, 39, 34);
+    border-radius: 20px;
+    
+}
+
+
+
+
+.row::after {
+    clear: both;
+    content: '';
+    display: table;
+}
+/*header end here*/
+/*header start here*/
+
+#banner{
+    background-image: url("image/rest.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: local;
+
+}
+.banner-content{
+    width: 100%;
+    margin: 10px 10px;
+    padding: 15px;
+    text-align: center;
+}
+.banner-content h1{
+    background-color: chartreuse;
+    font-size: 3.5rem;
+    font-family: 'Style Script', cursive;
+   
+}
+.banner-content p{
+    background-color: rgb(121, 179, 20);
+    color: aliceblue;
+    font-size: 1.5rem;
+    width: 350px;
+    margin: 10px auto;
+    padding: 10px;
+    text-align: center;
+}
+.btn{
+    background-color: rgb(157, 190, 10);
+    margin-top: 20px;
+    padding: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: rgb(167, 16, 29);
+    text-transform: uppercase;
+    font-weight: bold;
+    transition: 0.4s;
+
+}
+.btn:hover{
+    transform: scale(1.3);
+    cursor: pointer;
+
+}
+.banner-content h1:hover{
+    background-color: chocolate;
+
+}
+.banner-content p:hover{
+    transform: scale(1.3);
+
+}
+.about{
+    background-color: rgba(30, 36, 36, 0.541);
+}
+.about h3{
+    text-align: center;
+    font-size: 1.5rem;
+    color: azure;
+}
+.about h3:hover{
+    text-align: center;
+    font-size: 1.5rem;
+    color: red;
+}
+.about p{
+    text-align: center;
+    color: whitesmoke;
+}
+
+
+.cow{    
+    text-align: center;
+    
+}
+.card{
+    background-color: rgb(109, 159, 202);
+    margin: 10px 5px;
+    border: 2px solid black;
+    box-shadow: 1px 2px 4px black;
+    transition: 1s;
+}
+.jetha-lal img{
+    border: 1px solid white;
+    width: 100%;
+    height: auto;
+    
+}
+.card h4{
+    background-color: chartreuse;
+    padding: 10px;
+    font-size: 1.7rem;
+    border-radius: 9px;
+}
+.card-desc p {
+    background-color: aqua;
+    border-radius: 10px;
+    font-size: 1rem;
+    padding: 5px;
+    font-weight: bold;
+}
+.card-desc button{
+    border-radius: 10px;
+    font-weight: bolder;
+    padding: 10px;
+    transition: 0.42s;
+}
+button:hover{
+ background-color: chartreuse;
+   transform: scale(1.2);
+   cursor: pointer;
+}
+.card:hover{
+    box-shadow: 5px 10px 8px yellowgreen;
+}
+
+
+.card::after {
+    clear: both;
+    content: '';
+    display: table;
+}
+.dog{
+    padding: 0 1%;
+    background-color: rgb(109, 159, 202);
+}
+.map{
+    width: 100%;
+    height: 300px;
+}
+.alom{
+    text-align: center;
+}
+
+.contact-res h2{
+    font-size: 1.9rem;
+    color: aliceblue;
+    margin-bottom: 10px ;
+}
+h2{
+    color:azure;
+}
+.contact-name p{
+    font: 0.83rem;
+    color:rgb(240, 255, 254);
+}
+.contact-phn p{
+    font: 0.83rem;
+    color: aliceblue;
+}
+.contact-open p{
+    font: 0.83rem;
+    color: aliceblue;
+}
+.contact-name{
+    
+    padding: 10px;
+}
+.contact-phn {
+    padding: 10px;
+}
+.contact-open {
+    padding: 10px;
+}
+.dog::after{
+    clear: both;
+    content: '';
+    display: table;
+}
+.sony{
+    text-align: center;
+}
+.copy p{
+    color: black;
+    margin: 20px auto;
+    float: left;
+    font-weight: bolder;
+    font-size: 1.3rem;
+}
+.icon-foot{
+    float: right;
+    
+}
+.icon-foot i{
+    padding: 10px;
+    cursor: pointer;
+    
+}
